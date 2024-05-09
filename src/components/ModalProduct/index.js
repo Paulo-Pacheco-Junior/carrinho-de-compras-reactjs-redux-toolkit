@@ -1,20 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { Container,
-         ProductAreaModal,
-         ProductButtonsModal,
-         ProductPhotoModal,
-         ProductInfoAreaModal,
-         ProductDetails,
-         ProductQuantityAreaModal,
-         ProductNameModal,
-         ProductIngredientsModal,
-         ProductButton,
-         ProductMinusQt,
-         ProductPlusQt,
-         ProductTextQt,
-         ProductQtModal,
-         ProductPriceModal } from "./styled";
+import { Container, ProductAreaModal, ProductButtonsModal, ProductPhotoModal, ProductInfoAreaModal,
+  ProductDetails, ProductQuantityAreaModal, ProductNameModal, ProductIngredientsModal, ProductButton,
+  ProductMinusQt, ProductPlusQt, ProductTextQt, ProductQtModal, ProductPriceModal } from "./styled";
+import { ADD_PRODUCT } from "../../store";
 
 export default ({data, setStatus}) => {
   const dispatch = useDispatch();
@@ -38,12 +27,8 @@ export default ({data, setStatus}) => {
     setQt(qt + 1);
   }
 
-
   const handleAddToCart = () => {
-    dispatch({
-      type:'ADD_PRODUCT',
-      payload:{data, qt}
-    });
+    dispatch(ADD_PRODUCT({data, qt}))
     setStatus(false);
   }
 

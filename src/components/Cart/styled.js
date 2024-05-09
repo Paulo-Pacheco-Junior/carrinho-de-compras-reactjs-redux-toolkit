@@ -47,7 +47,7 @@ export const CartText = styled.div`
 `;
 
 export const CartBody = styled.div`
-  display:${props => props.show == true ? 'block' : 'none'};
+  display:${props => props.show === true ? 'block' : 'none'};
   flex-direction:column;
   color:#FFF;
   margin:0 10px;

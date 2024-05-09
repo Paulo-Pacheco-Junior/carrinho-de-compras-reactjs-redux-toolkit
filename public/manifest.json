@@ -1,6 +1,6 @@
 {
-  "short_name": "React Delivery",
-  "name": "Delivery desenvolvido em React",
+  "short_name": "Redux toolkit",
+  "name": "carrinho-de-compras-reactjs-redux-toolkit",
   "icons": [
     {
       "src": "favicon.ico",

@@ -1,16 +1,8 @@
 import React from "react";
-import { Container,
-         ProductPhotoArea,
-         ProductInfoArea,
-         ProductButtonArea,
-         ProductPhoto,
-         ProductName,
-         ProductPrice,
-         ProductIngredients,
-         ProductButton, } from "./styled";
+import { Container, ProductPhotoArea, ProductInfoArea, ProductButtonArea, ProductPhoto, 
+  ProductName, ProductPrice, ProductIngredients, ProductButton } from "./styled";
 
 export default ({ data, onClick }) => {
-
   const handleClick = () => {
     onClick(data);
   }

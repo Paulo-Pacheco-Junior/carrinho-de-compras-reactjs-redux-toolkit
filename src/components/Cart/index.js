@@ -1,20 +1,9 @@
 import React, { useState } from 'react';
+import { CartArea, CartHeader, CartIcon, CartText, CartBody, CartItemArea,
+  CartItemPhoto, CartItemDetails, CartItemName, CartItemPrice, CartItemQtArea,
+  CartItemMinusQt, CartItemTextQt, CartItemPlusQt, CartDown } from './styled';
 import { useSelector, useDispatch } from 'react-redux';
-import { CartArea,
-         CartHeader,
-         CartIcon,
-         CartText,
-         CartBody,
-         CartItemArea,
-         CartItemPhoto,
-         CartItemDetails,
-         CartItemName,
-         CartItemPrice,
-         CartItemQtArea,
-         CartItemMinusQt,
-         CartItemTextQt,
-         CartItemPlusQt,
-         CartDown } from './styled';
+import { CHANGE_PRODUCT } from '../../store';
 
 export default () => {
   const dispatch = useDispatch();
@@ -24,14 +13,11 @@ export default () => {
   const [ show, setShow ] = useState(false);
 
   const handleQt = (key, type) => {
-    dispatch ({
-      type:'CHANGE_PRODUCT',
-      payload:{key, type}
-    });
+    dispatch(CHANGE_PRODUCT({key, type}))
   }
 
   const handleDown = () => {
-      setShow(!show);
+    setShow(!show);
   }
 
   return (

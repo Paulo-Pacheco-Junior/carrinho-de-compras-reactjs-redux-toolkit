@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
-export const LinkArea = styled.a`
+export const ItemArea = styled.a`
   display:flex;
   width:60px;
   height:60px;
   justify-content:center;
   align-items:center;
-  background-color:${props => props.active ? '#0B4D0B' : 'transparent'};
+  background-color:'#0B4D0B'};
   border-radius:10px;
   margin-bottom:10px;
 `;
 
-export const LinkIcon = styled.img`
+export const ItemIcon = styled.img`
   width:34px;
   height:auto;
 `;

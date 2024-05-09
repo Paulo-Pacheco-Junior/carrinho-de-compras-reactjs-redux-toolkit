@@ -11,7 +11,6 @@ export const Container = styled.div`
   @media(max-width:780px) {
     flex-direction:column;
   }
-
 `;
 
 export const Logo = styled.img`
@@ -26,7 +25,7 @@ export const Logo = styled.img`
 export const SearchInput = styled.input`
   border:0;
   border-radius:25px;
-  width:${props => props.active ? 300 : 0}px;
+  width:300px;
   height:50px;
   background-color:#FFF;
   background-image:url('/assets/search.png');
@@ -47,10 +46,10 @@ export const SearchInput = styled.input`
   }
 
   @media(max-width:560px) {
-    width:${props => props.active ? 150 : 0}px;
+    width:150px;
   }
 
   @media(max-width:430px) {
-    width:${props => props.active ? 120 : 0}px;
+    width:120px;
   }
 `;
