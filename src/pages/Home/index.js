@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import api from '../../api';
 import Header from '../../components/Header';
 import Modal from '../../components/Modal';
 import ModalProduct from '../../components/ModalProduct';
 import ProductsItem from '../../components/ProductsItem';
 import { Container, ProductArea, ProductList } from './styled';
-
 
 export default () => {
   const [ products, setProducts ] = useState([]);
@@ -14,12 +12,14 @@ export default () => {
 
   useEffect(()=> {
     const getProducts = async () => {
-      const response = await api.getProducts();
-      setProducts(response.result.data);
-    }
+      const res = await fetch('http://localhost:3001/products');
+      const data = await res.json();
+      console.log(data);
+      setProducts(data);
+    } 
     getProducts();
-  },[])
- 
+  },[]);
+
   const handleProductClick = (data) => {
     setModalData(data);
     setModalStatus(true);

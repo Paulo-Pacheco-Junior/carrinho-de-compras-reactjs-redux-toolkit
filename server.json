@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "https://speedy.uenicdn.com/ffaea7e1-0cd8-4994-9773-7c73b200c9ae/c512_a/image/upload/v1582892160/business/418b847c-6214-48ab-9b3c-ee816af1aa66.jpg",
+      "name": "Torta de limão",
+      "price": 20,
+      "ingredients": "farinha de trigo, açúcar, ovos, manteiga, óleo, leite e fermento"
+    },
+    { 
+      "id": 2,
+      "image": "https://speedy.uenicdn.com/ffaea7e1-0cd8-4994-9773-7c73b200c9ae/c512_a/image/upload/v1582641876/business/c3727c70-8733-4312-b68c-09be64474d03.webp",
+      "name": "Banoffee",
+      "price": 35,
+      "ingredients": "farinha de trigo, açúcar, ovos, manteiga, óleo, leite e fermento"
+    },
+    {
+      "id": 3,
+      "image": "https://speedy.uenicdn.com/ffaea7e1-0cd8-4994-9773-7c73b200c9ae/c512_a/image/upload/v1582894642/business/6c865611-61f2-438f-a720-9b1837d1f2e0.jpg",
+      "name": "Cupcake",
+      "price": 12,
+      "ingredients": "farinha de trigo, açúcar, ovos, manteiga, óleo, leite e fermento"
+    },
+    {
+      "id": 4,
+      "image": "https://speedy.uenicdn.com/ffaea7e1-0cd8-4994-9773-7c73b200c9ae/c512_a/image/upload/v1582894919/business/ba3f459a-6a3b-449e-8009-efc0033c54c6.jpg",
+      "name": "Bolo de caramelo",
+      "price": 52,
+      "ingredients": "farinha de trigo, açúcar, ovos, manteiga, óleo, leite e fermento"
+    },
+    {
+      "id": 65,
+      "image": "https://www.innovarebolos.com.br/wp-content/uploads/2022/07/20221017_114954-1.jpg",
+      "name": "Bolo de morango",
+      "price": 65,
+      "ingredients": "farinha de trigo, açúcar, ovos, manteiga, óleo, leite e fermento"
+    },
+    { 
+      "id": 6,
+      "image": "https://speedy.uenicdn.com/ffaea7e1-0cd8-4994-9773-7c73b200c9ae/c512_a/image/upload/v1583165248/business/bdc7add0-b6f5-42c8-841c-af61466228cd.jpg",
+      "name": "Cookies",
+      "price": 8,
+      "ingredients": "farinha de trigo, açúcar, ovos, manteiga, óleo, leite e fermento"
+    },
+    {
+      "id": 7,
+      "image": "https://www.innovarebolos.com.br/wp-content/uploads/2022/08/20220511_130414.jpg",
+      "name": "Torta de morango",
+      "price": 50,
+      "ingredients": "farinha de trigo, açúcar, ovos, manteiga, óleo, leite e fermento"
+    },
+    {
+      "id": 8,
+      "image": "https://speedy.uenicdn.com/ffaea7e1-0cd8-4994-9773-7c73b200c9ae/c512_a/image/upload/v1582894874/business/dc96871c-cd5c-4c42-8a99-079dc0236f44.jpg",
+      "name": "Bolo de brigadeiro",
+      "price": 55,
+      "ingredients": "farinha de trigo, açúcar, ovos, manteiga, óleo, leite e fermento"
+    },
+    { 
+      "id": 9,
+      "image": "https://speedy.uenicdn.com/ffaea7e1-0cd8-4994-9773-7c73b200c9ae/c512_a/image/upload/v1575946983/business/andy-candy-confeitaria/819bb74a-0db0-4450-877c-8adbf9ffe2f7.jpg",
+      "name": "Bolo no pote",
+      "price": 15,
+      "ingredients": "farinha de trigo, açúcar, ovos, manteiga, óleo, leite e fermento"
+    },
+    {
+      "id": 10,
+      "image": "https://speedy.uenicdn.com/ffaea7e1-0cd8-4994-9773-7c73b200c9ae/c512_a/image/upload/v1582894835/business/86c2bff5-7282-469c-9d36-398d509e08c1.jpg",
+      "name": "Brownie",
+      "price": 15,
+      "ingredients": "farinha de trigo, açúcar, ovos, manteiga, óleo, leite e fermento"
+    }
+  ]
+}
