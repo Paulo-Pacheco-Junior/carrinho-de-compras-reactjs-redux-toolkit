@@ -7,9 +7,7 @@ import { CHANGE_PRODUCT } from '../../store';
 
 export default () => {
   const dispatch = useDispatch();
-
   const products = useSelector(state => state.cart.products);
-
   const [ show, setShow ] = useState(false);
 
   const handleQt = (key, type) => {

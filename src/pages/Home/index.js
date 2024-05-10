@@ -14,8 +14,8 @@ export default () => {
     const getProducts = async () => {
       const res = await fetch('http://localhost:3001/products');
       const data = await res.json();
-      console.log(data);
       setProducts(data);
+      console.log(data);
     } 
     getProducts();
   },[]);
@@ -28,7 +28,6 @@ export default () => {
   return (
     <Container>
       <Header />
-      {products.length > 0 && 
         <ProductArea>
           <ProductList>
             {products.map((item, index)=>(
@@ -40,7 +39,7 @@ export default () => {
             ))}
           </ProductList>
         </ProductArea>
-      }
+      
       <Modal status={modalStatus} setStatus={setModalStatus}>
         <ModalProduct data={modalData} setStatus={setModalStatus}/>
       </Modal>
